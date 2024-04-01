@@ -1,0 +1,19 @@
+package interview_programs;
+
+import java.util.Scanner;
+
+public class pro1 {
+	public static void main(String args[]) {
+	Scanner sj=new Scanner(System.in);
+	System.out.println("please enter the number");
+	int k=sj.nextInt();
+	if(k%2==0) {
+		System.out.println("the numer is even");
+	}else {
+		System.out.println("the number is odd");
+	}
+				
+		
+	}
+
+}

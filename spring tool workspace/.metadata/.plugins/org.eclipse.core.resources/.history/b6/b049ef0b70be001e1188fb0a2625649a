@@ -1,0 +1,14 @@
+package interview_programs;
+
+import java.util.Scanner;
+
+public class pro1 {
+	public static void main(String args[]) {
+		int dive=34;
+		int divi=43;
+		int qu=dive/divi;
+		int re=dive/divi;
+		
+	}
+
+}

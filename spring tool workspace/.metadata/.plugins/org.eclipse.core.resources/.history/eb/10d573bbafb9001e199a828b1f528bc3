@@ -1,0 +1,41 @@
+package Daily_challenge;
+
+
+	import org.openqa.selenium.By;
+	import org.openqa.selenium.JavascriptExecutor;
+	import org.openqa.selenium.WebDriver;
+	import org.openqa.selenium.WebElement;
+	import org.openqa.selenium.chrome.ChromeDriver;
+
+	public class freze {
+
+	    public static void main(String[] args) {
+	        // Set the path to your ChromeDriver executable
+	        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
+
+	        // Create a new instance of the Chrome driver
+	        WebDriver driver = new ChromeDriver();
+
+	        // Navigate to the Flipkart website
+	        driver.get("https://www.flipkart.com/");
+
+	        // Identify the dropdown element using its XPath
+	        WebElement dropdown = driver.findElement(By.xpath(""));
+
+	        // Execute JavaScript with debugger statement to pause the script
+	        ((JavascriptExecutor) driver).executeScript("debugger;");
+	        
+
+	        // Hover over the dropdown to trigger its opening
+	        // Note: This action should be done manually in the browser's Developer Tools
+	        // or by continuing the script execution from this point
+
+	        // Continue with your automation script logic after inspecting the elements
+	        // ...
+
+	        // Close the browser
+	       // driver.quit();
+	    }
+	}
+
+

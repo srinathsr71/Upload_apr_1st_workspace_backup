@@ -1,0 +1,5 @@
+
+»
+java:S3577"†Rename class "parall1" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'b f62075fed5e4c5dff15b6f6275974746h
+X
+java:S29257"$Remove this use of "Thread.sleep()".b c9fab33e9458412c527c3fe8a13ee37dh

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20231206 13:10:01.502" rpa="false" schemaversion="3">
+<suite id="s1" name="Testjen" source="D:\seperate\robot framework practice\Robot Framework Practices NEW\testjen.robot">
+<test id="s1-t1" name="opening web application" line="5">
+<kw name="opening application" library="demojenRF">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231206 13:10:01.825" level="INFO">Opening browser 'edge' to base url 'https://www.Flipkart.com'.</msg>
+<msg timestamp="20231206 13:10:01.831" level="INFO">Applicable driver not found; attempting to install with Selenium Manager (Beta)</msg>
+<status status="PASS" starttime="20231206 13:10:01.825" endtime="20231206 13:10:09.237"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20231206 13:10:09.238" endtime="20231206 13:10:11.299"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>20s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20231206 13:10:31.299" level="INFO">Slept 20 seconds</msg>
+<status status="PASS" starttime="20231206 13:10:11.299" endtime="20231206 13:10:31.299"/>
+</kw>
+<status status="PASS" starttime="20231206 13:10:01.825" endtime="20231206 13:10:31.299"/>
+</kw>
+<status status="PASS" starttime="20231206 13:10:01.824" endtime="20231206 13:10:31.299"/>
+</test>
+<status status="PASS" starttime="20231206 13:10:01.502" endtime="20231206 13:10:31.299"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Testjen">Testjen</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

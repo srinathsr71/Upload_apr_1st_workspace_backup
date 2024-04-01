@@ -1,0 +1,16 @@
+package interview_programs;
+
+import java.util.Scanner;
+
+public class pro1 {
+	public static void main(String args[]) {
+	char ch='t';
+	if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u') {
+		
+	}
+	
+				
+		
+	}
+
+}

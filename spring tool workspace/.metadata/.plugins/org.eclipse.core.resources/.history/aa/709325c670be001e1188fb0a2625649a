@@ -1,0 +1,22 @@
+package interview_programs;
+
+import java.util.Scanner;
+
+public class pro1 {
+	public static void main(String args[]) {
+		int a=40;
+		int b=20;
+		System.out.println("Before swapping ");
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println("after swapping");
+		a=a-b;//20
+		a=a+b;//60
+		b=b-a;//
+		System.out.println(a);
+		System.out.println(b);
+				
+		
+	}
+
+}

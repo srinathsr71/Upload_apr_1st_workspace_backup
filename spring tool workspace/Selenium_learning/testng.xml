@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="methods" thread-count="5">
+  <test  name="Test1">
+  <!--<parameter name="mybrowser" value="edge"></parameter>-->
+  <classes>
+  <class name="parall.parall1"></class>
+  <class name="parall.parall2"></class>
+  </classes>  
+   
+  </test> 
+</suite>

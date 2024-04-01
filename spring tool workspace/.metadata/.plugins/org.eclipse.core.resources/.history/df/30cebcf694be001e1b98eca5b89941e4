@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Topics_practicles.select_class"/>
+      <class name="Daily_challenge.demo5"/>
+      <class name="Topics_practicles.Webdriver_control_commands"/>
+      <class name="Topics_practicles.actions_class"/>
+      <class name="Topics_practicles.Frame_class"/>
+      <class name="Topics_practicles.locators"/>
+      <class name="Topics_practicles.alert_class"/>
+      <class name="Topics_practicles.Data_driven_testing2"/>
+      <class name="Daily_challenge.webstatic"/>
+      <class name="Topics_practicles.select_checkbox"/>
+      <class name="Daily_challenge.Demo"/>
+      <class name="Daily_challenge.freze"/>
+      <class name="Topics_practicles.window_handles"/>
+      <class name="Daily_challenge.Demo6"/>
+      <class name="Daily_challenge.Practice2"/>
+      <class name="Daily_challenge.challenge_2"/>
+      <class name="Daily_challenge.challenge_1"/>
+      <class name="Topics_practicles.data_driven_testing"/>
+      <class name="Topics_practicles.Topics"/>
+      <class name="Topics_practicles.DataDriven"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

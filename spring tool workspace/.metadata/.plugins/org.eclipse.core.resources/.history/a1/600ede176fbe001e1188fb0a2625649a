@@ -1,0 +1,13 @@
+package interview_programs;
+
+import java.util.Scanner;
+
+public class pro1 {
+	public static void main(String args[]) {
+		Scanner s=new Scanner(System.in);
+		System.out.println("please enter integer number");
+		int j=s.nextInt();
+		System.out.println();
+	}
+
+}

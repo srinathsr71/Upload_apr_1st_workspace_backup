@@ -1,0 +1,13 @@
+package interview_programs;
+
+import java.util.Scanner;
+
+public class pro1 {
+	public static void main(String args[]) {
+		float a=4.5f;
+		float b=3.4f;
+		float mul=a*b;
+		System.out.println("The multiplication of two float numbers are:"+mul);
+	}
+
+}

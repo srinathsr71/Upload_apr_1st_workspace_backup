@@ -1,0 +1,11 @@
+package interview_programs;
+
+import java.util.Scanner;
+
+public class pro1 {
+	public static void main(String args[]) {
+		
+		
+	}
+
+}
